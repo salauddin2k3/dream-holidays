@@ -200,6 +200,12 @@
 
   /* Start Seals Section */
 
+
+  .deals .deals-text p {
+    width: 500px;
+  }
+
+
   .deals .deals-card .card-description {
     width: 400px;
     height: 350px;
@@ -253,6 +259,39 @@
 
 /* End Seals Section */
 
+/* Start Perfect Place Section */
+
+ .perferct-place {
+  flex-direction: column;
+  gap: 25px;
+ }
+
+ .perfect-place-img .bg-img {
+  width: 100%;
+ }
+
+ .perfect-place-img .icon-1 {
+  right: 31px;
+  width: 90%;
+  top: 350px;
+}
+
+.perfect-place-img .icon-2 {
+  right: 445px;
+  top: 315px;
+}
+
+.perfect-place-img .icon-3 {
+  right: 36px;
+  top: 315px;
+}
+
+.perferct-place .perfect-place-img h3 {
+  bottom: 150px;
+  left: 150px;
+}
+
+/* End Perfect Place Section */
 
 
 
@@ -540,6 +579,69 @@
   }
 
   /* End Choose Us Section */
+
+
+  /* Start Deals Section */
+
+  .deals .deals-card-2 .card-description {
+    padding: 30px;
+    margin: 55px auto;
+  }
+
+  .deals .deals-card .card-description {
+    padding: 30px;
+    margin: 55px auto;
+  }
+
+  /* End Deals Section */
+
+  /* Start Perfect Place Section */
+
+  .perferct-place {
+  flex-direction: column;
+  gap: 25px;
+  }
+
+  .perfect-place-description, .perfect-place-img {
+    width: 100%;
+    border: 1px solid red;
+  }
+
+  .perfect-place-img .bg-img {
+  width: 100%;
+  }
+
+  .perfect-place-img .icon-1 {
+    right: 34px;
+    width: 90%;
+    top: 470px;
+  
+  }
+
+  .perfect-place-img .icon-2 {
+    right: 603px;
+    top: 433px;
+}
+
+.perfect-place-img .icon-3 {
+  right: 43px;
+  top: 433px;
+}
+
+.perferct-place .perfect-place-img h3 {
+  bottom: 219px;
+  left: 233px;
+}
+
+.perferct-place .perfect-place-description p {
+  width: 700px;
+}
+
+.perferct-place .perfect-place-description ul {
+  width: 650px;
+}
+
+/* End Perfect Place Section */
 
 
 
