@@ -1,0 +1,55 @@
+/* Smaill Device (Mobile) & (600px and down) */
+
+@media screen and (max-width: 600px) {
+  /* Shared styles */
+
+  .container {
+    width: 90%;
+    max-width: 600px;
+  }
+
+  /* Header Section */
+  .header {
+    margin-top: 30px;
+  }
+
+  /* Navbar Section Start */
+
+  .navbar .nav-menu {
+    text-align: right;
+  }
+
+  .navbar .nav-menu ul {
+    display: none;
+  }
+
+  .navbar .nav-menu .fa-bars {
+    display: inline;
+    font-size: 1.5rem;
+  }
+
+  .navbar .nav-logo h3 {
+    color: #131318;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 10px;
+  }
+
+  .navbar .nav-logo img {
+    width: 40px;
+  }
+
+  .navbar .nav-logo #logo-highlight {
+    color: #ff5400;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+/* Navbar Section End */
+
+
+}
