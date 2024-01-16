@@ -658,7 +658,7 @@
 
 .perferct-place .perfect-place-description ul {
   color: #131318;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
@@ -673,3 +673,74 @@
 }
 
 /* End Perfect Place Section */
+
+/* Start News Letter Section */
+
+
+.newsletter {
+  margin-top: 100px;
+  display: flex;
+  column-gap: 25px;
+}
+
+.newsletter .newsletter-description {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+
+.newsletter .newsletter-description h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.newsletter .newsletter-description p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+  width: 350px;
+  margin-top: 15px;
+}
+
+.newsletter .newsletter-description hr {
+  height: 1px;
+  background: rgba(19, 19, 24, 0.10);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.newsletter .newsletter-description input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  padding: 16px;
+  padding-right: 46%;
+  margin-bottom: 15px;
+
+  color: rgba(19, 19, 24, 0.30);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newsletter .newsletter-description button {
+  padding: 15px 150px;
+}
+
+.newsletter-img .newsletter-discount-section {
+  position: absolute;
+  bottom: 5px;
+  right: 1px;
+}
+
+.newsletter-img {
+  position: relative;
+}
