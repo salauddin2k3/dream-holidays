@@ -293,6 +293,29 @@
 
 /* End Perfect Place Section */
 
+/* Start News Letter Section */
+
+.newsletter {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.newsletter-img {
+  width: 100%;
+}
+
+.newsletter-img > img {
+  width: 100%;
+}
+
+/* End News Letter Section */
+
+
+
+
+
+
+
 
 
 }
@@ -604,7 +627,6 @@
 
   .perfect-place-description, .perfect-place-img {
     width: 100%;
-    border: 1px solid red;
   }
 
   .perfect-place-img .bg-img {
@@ -642,6 +664,24 @@
 }
 
 /* End Perfect Place Section */
+
+/* Start News Letter Section */
+
+.newsletter {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.newsletter-img {
+  width: 100%;
+}
+
+.newsletter-img > img {
+  width: 100%;
+}
+
+/* End News Letter Section */
+
 
 
 
