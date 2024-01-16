@@ -92,8 +92,38 @@
 
   /* End Banner Section */
 
+  /* Start Popular Tour Section */
+
+  .popular-tour {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .popular-tour .popular-tour-description h2 {
+    font-size: 1.8rem;
+  }
+
+  .popular-tour-description {
+    width: 100%;
+  }
+
+  .popular-tour-img {
+    width: 100%;
+  }
+
+  /* End Popular Tour Section */
+
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -195,6 +225,32 @@
   }
 
   /* End Banner Section */
+
+    /* Start Popular Tour Section */
+
+    .popular-tour {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .popular-tour .popular-tour-description h2 {
+      font-size: 1.8rem;
+    }
+  
+    .popular-tour-description {
+      width: 100%;
+    }
+
+    .popular-tour-img img {
+      width: 100%;
+    }
+
+    .popular-tour-img {
+      border: 1px solid red;
+      width: 100%;
+    }
+
+    /* End Popular Tour Section */
 
 
 

@@ -219,6 +219,7 @@
 
 .popular-tour-img img {
   height: 100%;
+  object-fit: cover;
 }
 
 
@@ -239,7 +240,7 @@
   line-height: 26px;
   /* 162.5% */
   margin-top: 30px;
-  width: 570px;
+  width: 95%;
 }
 
 .popular-tour .popular-tour-description ul {
@@ -261,3 +262,5 @@
 .popular-tour .popular-tour-description button {
   margin-top: 40px;
 }
+
+/* End Popular Tour Section */
