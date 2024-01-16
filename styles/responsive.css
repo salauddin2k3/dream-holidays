@@ -318,6 +318,20 @@ footer .footer-description {
 
 /* Footer Section Start */
 
+/* Start Extra Section or Our Services Section */
+
+.our-services .our-services-card {
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.our-services .our-services-description p {
+  width: 470px;
+  margin: 25px auto 25px;
+}
+
+/* End Extra Section or Our Services Section */
+
 
 
 
@@ -692,6 +706,20 @@ footer .footer-description {
 }
 
 /* Footer Section Start */
+
+/* Start Extra Section or Our Services Section */
+
+.our-services .our-services-card {
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.our-services .our-services-description p {
+  width: 565px;
+  margin: 25px auto 25px;
+}
+
+/* End Extra Section or Our Services Section */
 
 
 
