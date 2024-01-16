@@ -588,3 +588,89 @@
 .deals-card .card-description button {
   margin-top: 25px;
 }
+
+/* End Sales Section */
+
+/* Start Perfect Place Section */
+
+.perferct-place {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfect-place-img {
+  position: relative;
+}
+
+.perfect-place-img .icon-1 {
+  position: absolute;
+  right: 25px;
+  top: 400px;
+}
+
+.perfect-place-img .icon-2 {
+  position: absolute;
+  right: 520px;
+  top: 365px;
+}
+
+.perfect-place-img .icon-3 {
+  position: absolute;
+  top: 365px;
+  right: 30px;
+}
+
+.perferct-place .perfect-place-img h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  /* 150% */
+  position: absolute;
+  bottom: 180px;
+  left: 170px;
+}
+
+.perferct-place .perfect-place-description {}
+
+.perferct-place .perfect-place-description h2 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  /* 150% */
+}
+
+.perferct-place .perfect-place-description p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 530px;
+  line-height: 26px;
+  /* 162.5% */
+  margin-top: 25px;
+}
+
+.perferct-place .perfect-place-description ul {
+  color: #131318;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 162.5% */
+  margin-top: 25px;
+  width: 518px;
+  padding-left: 30px;
+}
+
+.perferct-place .perfect-place-description button {
+  margin-top: 30px;
+}
+
+/* End Perfect Place Section */
