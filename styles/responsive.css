@@ -51,5 +51,183 @@
 
 /* Navbar Section End */
 
+/* Start Banner Section */
+
+.banner {
+  background-size: cover;
+  height: 100%;
+  border: 2px solid red;
+  }
+
+  .banner .banner-text h2 {
+    font-size: 2.4rem;
+    padding-top: 40px;
+  }
+
+  .banner .banner-text p {
+    width: 400px;
+  }
+
+  .banner .banner-search-box {
+    flex-direction: column;
+    width: 470px;
+  }
+
+  .banner .banner-search-box input {
+    width: 100%;
+  }
+
+  .banner .banner-search-box button {
+    width: 100%;
+  }
+
+  .when-down-arrow {
+    top: 114px;
+    left: 410px;
+  }
+
+  .select-type-down-arrow {
+    top: 190px;
+    left: 410px;
+  }
+
+  /* End Banner Section */
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Medium Device (Tab), (600px and up) (800px and down) */
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+ 
+    /* Shared styles */
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+    }
+  
+    /* Header Section */
+    .header {
+      margin-top: 35px;
+    }
+  
+    /* Navbar Section Start */
+  
+    .navbar .nav-menu {
+      text-align: right;
+    }
+  
+    .navbar .nav-menu ul {
+      display: none;
+    }
+  
+    .navbar .nav-menu .fa-bars {
+      display: inline;
+      font-size: 2rem;
+    }
+  
+    .navbar .nav-logo h3 {
+      color: #131318;
+      font-size: 2.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-left: 10px;
+    }
+  
+    .navbar .nav-logo img {
+      width: 50px;
+    }
+  
+    .navbar .nav-logo #logo-highlight {
+      color: #ff5400;
+      font-size: 2.25rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+  
+  /* Navbar Section End */
+
+  /* Start Banner Section */
+
+.banner {
+  background-size: cover;
+  height: 100%;
+  border: 2px solid red;
+  }
+
+  .banner .banner-text h2 {
+    font-size: 3rem;
+    padding-top: 40px;
+  }
+
+
+
+  .banner .banner-search-box {
+    flex-direction: column;
+    width: 600px;
+  }
+
+  .banner .banner-search-box input {
+    width: 100%;
+  }
+
+  .banner .banner-search-box button {
+    width: 100%;
+  }
+
+  .when-down-arrow {
+    top: 114px;
+    left: 540px;
+  }
+
+  .select-type-down-arrow {
+    top: 190px;
+    left: 540px;
+  }
+
+  /* End Banner Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

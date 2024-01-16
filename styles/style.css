@@ -87,16 +87,16 @@
 /* Start Banner Section */
 
 .banner {
-  border: 1px solid rgb(189, 189, 189);
   text-align: center;
   margin-top: 50px;
-  background-image: linear-gradient(
-      180deg,
+  background-image: linear-gradient(180deg,
       rgba(19, 19, 24, 0.8),
-      rgba(19, 19, 24, 0)
-    ),
+      rgba(19, 19, 24, 0)),
     url("../images/Group\ 13\ \(1\)\ \(1\).png");
-  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
   border-radius: 16px;
 }
 
@@ -115,7 +115,8 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   padding-top: 25px;
   width: 676px;
   margin: 0 auto;
@@ -130,6 +131,7 @@
   margin: 50px auto 100px;
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 0.3);
+  position: relative;
 }
 
 .banner .banner-search-box input {
@@ -144,6 +146,7 @@
   font-weight: 400;
   line-height: normal;
   padding-left: 10px;
+  border: 0;
 }
 
 .banner .banner-search-box button {
@@ -164,3 +167,20 @@
   padding-right: 10px;
 }
 
+.when-down-arrow {
+  color: rgba(19, 19, 24, 0.50);
+  font-size: 1.4rem;
+  position: absolute;
+  left: 360px;
+  top: 38px;
+}
+
+.select-type-down-arrow {
+  color: rgba(19, 19, 24, 0.50);
+  font-size: 1.4rem;
+  position: absolute;
+  left: 560px;
+  top: 38px;
+}
+
+/* End Banner Section */
