@@ -454,3 +454,137 @@
 }
 
 /* End Choose Us Section */
+
+/* Start Deals Section */
+
+.deals .deals-text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.deals .deals-text h3 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.deals .deals-text p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+  width: 645px;
+  margin: 25px auto 0;
+}
+
+.deals .deals-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.deals .deals-card {
+  margin-top: 50px;
+}
+
+
+.deals .deals-card .deals-card-1 {
+  height: 500px;
+  border: .25px solid #fff;
+  border-radius: 16px;
+  background-image: url('../images/Group\ 39.png');
+}
+
+.deals .deals-card .deals-card-2 {
+  height: 500px;
+  border: .25px solid #fff;
+  border-radius: 16px;
+  background-image: url('../images/Group\ 40.png');
+  margin-top: 25px;
+}
+
+.deals .deals-card .deals-card-3 {
+  height: 500px;
+  border: .25px solid #fff;
+  border-radius: 16px;
+  background-image: url('../images/Group\ 39.png');
+  margin-top: 25px;
+}
+
+.deals .deals-card .card-description {
+  width: 580px;
+  height: 390px;
+  padding: 50px;
+  margin: 55px 55px 55px auto;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+}
+
+.deals .deals-card-2 .card-description {
+  width: 580px;
+  height: 390px;
+  padding: 50px;
+  margin: 55px auto 55px 55px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+}
+
+.card-description .card-description-details {
+  display: flex;
+  align-items: center;
+}
+
+.card-description .card-description-details .fa-solid {
+  font-size: 1rem;
+  color: #FF5400;
+  margin-right: 10px;
+}
+
+.card-description .card-description-details>p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 50px;
+}
+
+.deals-card .card-description h2 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 25px;
+}
+
+.deals-card .card-description .more-details {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+  width: 450px;
+  margin-top: 15px;
+}
+
+.deals-card .card-description h3 {
+  color: #FF5400;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.deals-card .card-description button {
+  margin-top: 25px;
+}
