@@ -168,6 +168,39 @@
 
   /* End Destination Section */
 
+    /* Start Choose Us Section */
+
+    .choose-us-card-up {
+      flex-direction: column;
+      row-gap: 25px;
+    }
+  
+    .choose-us-card-up .card-1 {
+      width: 100%;
+    }
+  
+    .choose-us-card-up .card-2 {
+      width: 100%;
+    }
+  
+    .choose-us-card-down .card-3 {
+      width: 100%;
+    }
+
+    .choose-us .choose-us-description h2 {
+      font-size: 2rem;
+    }
+    
+    .choose-us .choose-us-description p {
+      width: 450px;
+      margin: 25px auto 0;
+    }
+
+    /* End Choose Us Section */
+
+
+
+
 
 
 
@@ -431,6 +464,33 @@
   }
 
   /* End Destination Section */
+
+      /* Start Choose Us Section */
+
+      .choose-us-card-up {
+        flex-direction: column;
+        row-gap: 25px;
+      }
+    
+      .choose-us-card-up .card-1 {
+        width: 100%;
+      }
+    
+      .choose-us-card-up .card-2 {
+        width: 100%;
+      }
+    
+      .choose-us-card-down .card-3 {
+        width: 100%;
+      }
+  
+      .choose-us .choose-us-description h2 {
+        font-size: 2rem;
+      }
+  
+      /* End Choose Us Section */
+
+
 
 
 
