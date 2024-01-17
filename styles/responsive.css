@@ -55,21 +55,20 @@
 
   .banner {
     background-size: cover;
-    height: 630px;
+    height: 100%;
   }
 
   .banner .banner-text h2 {
     font-size: 2.4rem;
-    padding-top: 40px;
+    padding-top: 70px;
   }
 
   .banner .banner-text p {
-    width: 400px;
+    width: 80%;
   }
 
   .banner .banner-search-box {
     flex-direction: column;
-    width: 470px;
   }
 
   .banner .banner-search-box input {
@@ -81,13 +80,11 @@
   }
 
   .when-down-arrow {
-    top: 114px;
-    left: 410px;
+    right: 7%;
   }
 
   .select-type-down-arrow {
-    top: 190px;
-    left: 410px;
+    right: 7%;
   }
 
   /* End Banner Section */
@@ -192,7 +189,7 @@
   }
 
   .choose-us .choose-us-description p {
-    width: 450px;
+    width: 95%;
     margin: 25px auto 0;
   }
 
@@ -202,20 +199,20 @@
 
 
   .deals .deals-text p {
-    width: 500px;
+    width: 100%;
   }
 
 
   .deals .deals-card .card-description {
-    width: 400px;
-    height: 350px;
+    width: 90%;
+    height:fit-content;
     padding: 30px;
     margin: 115px auto;
   }
 
   .deals .deals-card-2 .card-description {
-    width: 400px;
-    height: 350px;
+    width: 90%;
+    height:fit-content;
     padding: 30px;
     margin: 115px auto;
   }
@@ -238,7 +235,7 @@
 
   .deals-card .card-description .more-details {
     font-size: .9rem;
-    width: 350px;
+    /* width: 350px; */
     margin-top: 15px;
   }
 
@@ -271,24 +268,19 @@
  }
 
  .perfect-place-img .icon-1 {
-  right: 31px;
-  width: 90%;
-  top: 350px;
+  width: 93%;
+
 }
 
-.perfect-place-img .icon-2 {
-  right: 445px;
-  top: 315px;
-}
 
-.perfect-place-img .icon-3 {
-  right: 36px;
-  top: 315px;
+
+.perferct-place .perfect-place-description h2 {
+  font-size: 2rem;
 }
 
 .perferct-place .perfect-place-img h3 {
-  bottom: 150px;
-  left: 150px;
+  font-size: 1rem;
+
 }
 
 /* End Perfect Place Section */
@@ -308,13 +300,15 @@
   width: 100%;
 }
 
+.newsletter-img .newsletter-discount-section {
+  width: 50%;
+}
+
+
 /* End News Letter Section */
 
 /* Footer Section Start */
 
-footer .footer-description {
-  width: 500px;
-}
 
 /* Footer Section Start */
 
@@ -326,7 +320,7 @@ footer .footer-description {
 }
 
 .our-services .our-services-description p {
-  width: 470px;
+  /* width: 470px; */
   margin: 25px auto 25px;
 }
 
@@ -467,7 +461,6 @@ footer .footer-description {
   }
 
   .popular-tour-img {
-    border: 1px solid red;
     width: 100%;
   }
 
@@ -626,11 +619,13 @@ footer .footer-description {
   .deals .deals-card-2 .card-description {
     padding: 30px;
     margin: 55px auto;
+    width: 80%;
   }
 
   .deals .deals-card .card-description {
     padding: 30px;
     margin: 55px auto;
+    width: 80%;
   }
 
   /* End Deals Section */
@@ -646,31 +641,20 @@ footer .footer-description {
     width: 100%;
   }
 
+
   .perfect-place-img .bg-img {
   width: 100%;
   }
 
   .perfect-place-img .icon-1 {
-    right: 34px;
-    width: 90%;
-    top: 470px;
+    width: 93%;
   
   }
 
-  .perfect-place-img .icon-2 {
-    right: 603px;
-    top: 433px;
-}
 
-.perfect-place-img .icon-3 {
-  right: 43px;
-  top: 433px;
-}
 
-.perferct-place .perfect-place-img h3 {
-  bottom: 219px;
-  left: 233px;
-}
+
+
 
 .perferct-place .perfect-place-description p {
   width: 700px;
@@ -702,7 +686,6 @@ footer .footer-description {
 /* Footer Section Start */
 
 footer .footer-description {
-  width: 650px;
 }
 
 /* Footer Section Start */
@@ -715,7 +698,6 @@ footer .footer-description {
 }
 
 .our-services .our-services-description p {
-  width: 565px;
   margin: 25px auto 25px;
 }
 

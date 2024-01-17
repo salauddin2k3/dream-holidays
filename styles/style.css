@@ -106,10 +106,12 @@
       rgba(19, 19, 24, 0.8),
       rgba(19, 19, 24, 0)),
     url("../images/Group\ 13\ \(1\)\ \(1\).png");
-  max-width: 100%;
+  width: 100%;
+  max-width: 1170px;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  border: .25px solid rgba(208, 208, 208, 0.01);
   border-radius: 16px;
   object-fit: cover;
 }
@@ -132,12 +134,14 @@
   line-height: 26px;
   /* 162.5% */
   padding-top: 25px;
-  width: 676px;
+  width: 58%;
+  max-width: 676px;
   margin: 0 auto;
 }
 
 .banner .banner-search-box {
-  width: 790px;
+  width: 75%;
+  max-width: 800px;
   display: flex;
   gap: 25px;
   justify-content: space-between;
@@ -145,7 +149,7 @@
   margin: 50px auto 100px;
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 0.3);
-  position: relative;
+  /* position: relative; */
 }
 
 .banner .banner-search-box input {
@@ -181,20 +185,25 @@
   padding-right: 10px;
 }
 
+.banner-search-box .banner-search-box-when,
+.banner-search-box-select-type {
+  position: relative;
+}
+
 .when-down-arrow {
   color: rgba(19, 19, 24, 0.50);
   font-size: 1.4rem;
   position: absolute;
-  left: 360px;
-  top: 38px;
+  top: 33%;
+  right: 10%;
 }
 
 .select-type-down-arrow {
   color: rgba(19, 19, 24, 0.50);
   font-size: 1.4rem;
   position: absolute;
-  left: 560px;
-  top: 38px;
+  top: 33%;
+  right: 10%;
 }
 
 /* End Banner Section */
@@ -218,7 +227,8 @@
 }
 
 .popular-tour-img img {
-  height: 100%;
+  /* height: 100%; */
+  width: 100%;
   object-fit: cover;
 }
 
@@ -390,7 +400,8 @@
   font-weight: 400;
   line-height: 26px;
   /* 162.5% */
-  width: 640px;
+  width: 100%;
+  max-width: 640px;
   margin: 25px auto 0;
 }
 
@@ -450,7 +461,8 @@
   line-height: 26px;
   /* 162.5% */
   margin-top: 16px;
-  width: 486px;
+  width: 100%;
+  max-width: 486px;
 }
 
 /* End Choose Us Section */
@@ -477,7 +489,8 @@
   font-weight: 400;
   line-height: 26px;
   /* 162.5% */
-  width: 645px;
+  width: 100%;
+  max-width: 645px;
   margin: 25px auto 0;
 }
 
@@ -515,8 +528,8 @@
 }
 
 .deals .deals-card .card-description {
-  width: 580px;
-  height: 390px;
+  width: 50%;
+  max-width: 580px;
   padding: 50px;
   margin: 55px 55px 55px auto;
   border-radius: 16px;
@@ -526,8 +539,8 @@
 }
 
 .deals .deals-card-2 .card-description {
-  width: 580px;
-  height: 390px;
+  width: 50%;
+  max-width: 580px;
   padding: 50px;
   margin: 55px auto 55px 55px;
   border-radius: 16px;
@@ -572,7 +585,8 @@
   font-weight: 400;
   line-height: 26px;
   /* 162.5% */
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   margin-top: 15px;
 }
 
@@ -606,20 +620,20 @@
 
 .perfect-place-img .icon-1 {
   position: absolute;
-  right: 25px;
-  top: 400px;
+  right: 4%;
+  bottom: 5%;
 }
 
 .perfect-place-img .icon-2 {
   position: absolute;
-  right: 520px;
-  top: 365px;
+  left: 5%;
+  bottom: 8%;
 }
 
 .perfect-place-img .icon-3 {
   position: absolute;
-  top: 365px;
-  right: 30px;
+  right: 5%;
+  bottom: 8%;
 }
 
 .perferct-place .perfect-place-img h3 {
@@ -631,8 +645,13 @@
   line-height: 36px;
   /* 150% */
   position: absolute;
-  bottom: 180px;
-  left: 170px;
+  top: 43%;
+  right: 27%;
+}
+
+
+.perfect-place-description {
+  width: 100%;
 }
 
 
@@ -650,7 +669,8 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  width: 530px;
+  width: 100%;
+  max-width: 530px;
   line-height: 26px;
   /* 162.5% */
   margin-top: 25px;
@@ -664,7 +684,8 @@
   line-height: 26px;
   /* 162.5% */
   margin-top: 25px;
-  width: 518px;
+  width: 100%;
+  max-width: 518px;
   padding-left: 30px;
 }
 
@@ -704,7 +725,8 @@
   font-weight: 400;
   line-height: 26px;
   /* 162.5% */
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   margin-top: 15px;
 }
 
@@ -729,20 +751,32 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 100%;
 }
 
 .newsletter .newsletter-description button {
   padding: 15px 150px;
+  width: 100%;
 }
 
-.newsletter-img .newsletter-discount-section {
-  position: absolute;
-  bottom: 5px;
-  right: 1px;
-}
+
 
 .newsletter-img {
+  width: 100%;
   position: relative;
+}
+
+
+.newsletter-img .newsletter-discount-section {
+  width: 100%;
+  max-width: 325px;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+.newsletter-img .newsletter-discount-section img {
+  width: 100%;
 }
 
 /* End News Letter Section */
@@ -786,6 +820,12 @@ footer .footer-logo .text-highlight {
 }
 
 footer .footer-description {
+  width: 100%;
+  max-width: 770px;
+  margin: 15px auto 0;
+}
+
+footer .footer-description {
   color: #5A5A5D;
   text-align: center;
   font-size: 1rem;
@@ -793,8 +833,8 @@ footer .footer-description {
   font-weight: 400;
   line-height: 26px;
   /* 162.5% */
-  width: 770px;
-  margin: 15px auto 0;
+  width: 100%;
+  max-width: 770px;
 }
 
 footer .footer-icon .fa-brands {
@@ -804,7 +844,8 @@ footer .footer-icon .fa-brands {
 }
 
 footer hr {
-  width: 872px;
+  width: 75%;
+  max-width: 872px;
   height: 1px;
   background: rgba(19, 19, 24, 0.10);
   margin: 50px auto;
@@ -850,7 +891,8 @@ footer .alright p {
   font-weight: 400;
   line-height: 26px;
   /* 162.5% */
-  width: 645px;
+  width: 100%;
+  max-width: 645px;
   margin: 25px auto 0;
 }
 
