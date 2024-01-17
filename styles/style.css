@@ -701,7 +701,7 @@
 .newsletter {
   margin-top: 100px;
   display: flex;
-  column-gap: 25px;
+  column-gap: 55px;
 }
 
 .newsletter .newsletter-description {
@@ -755,8 +755,18 @@
 }
 
 .newsletter .newsletter-description button {
-  padding: 15px 150px;
+  /* padding: 15px 150px; */
   width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 15px 35px;
+  border-radius: 8px;
+  background-color: #FF5400;
+  border: none;
 }
 
 
@@ -835,6 +845,7 @@ footer .footer-description {
   /* 162.5% */
   width: 100%;
   max-width: 770px;
+  padding: 20px;
 }
 
 footer .footer-icon .fa-brands {

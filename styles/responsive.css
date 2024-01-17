@@ -204,17 +204,17 @@
 
 
   .deals .deals-card .card-description {
-    width: 90%;
+    width: 91%;
     height:fit-content;
     padding: 30px;
-    margin: 115px auto;
+    margin: 14% auto;
   }
 
   .deals .deals-card-2 .card-description {
-    width: 90%;
+    width: 91%;
     height:fit-content;
     padding: 30px;
-    margin: 115px auto;
+    margin: 14% auto;
   }
 
 
@@ -706,3 +706,5 @@ footer .footer-description {
 
 
 }
+
+
